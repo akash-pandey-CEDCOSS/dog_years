@@ -1,0 +1,35 @@
+#bg{
+    /* background-image: linear-gradient(darkkhaki, thistle); */
+    background-image: url('image/dog3.jpg');
+   background-size: cover;
+}
+input[type="number"]{
+  
+    border: none;
+    
+}
+input[type="text"]{
+  
+    border: none;
+    
+}
+#display{
+    font-family: 'Shadows Into Light', cursive;
+
+    font-size: 20px;
+    color: white;
+}
+#display_age{
+    font-family: 'Shadows Into Light', cursive;
+
+    font-size: 30px;
+    color: white;
+    
+}
+#change{
+    font-family: 'Shadows Into Light', cursive;
+
+    font-size: 50px;
+    color: white;
+
+}

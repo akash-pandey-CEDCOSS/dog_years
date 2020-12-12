@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Dog Years
+    </title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script type=text/javascript src="main.js"></script>
+    <link rel="stylesheet" href="style.css">
+   
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap" rel="stylesheet">
+</head>
+
+<body id="bg">
+    <div class="container-fluid">
+
+        <div class="row justify-content-right">
+            <div class="col-md-8 col-sm-12">
+                <form>
+                    <legend style="font-size: 100px; font-family: 'Shadows Into Light', cursive; color:white"
+                        id="change">Dog Years</legend>
+                    <fieldset>
+                        <img src="image/doggybg.png" style="width: 10%;">
+                        <input type="number" id="age" placeholder="Age in years.." class="form-control w-50 p-3 mb-3"
+                            onchange="age1()">
+                        <input type="number" id="month" min="1" max="12" placeholder="Month"
+                            class="form-control w-50 p-3" onchange="age1()">
+
+                        <!-- <input type="text" id="age_output" class="form-control w-50" disabled> -->
+                </form>
+                </fieldset>
+                <div>
+                    <p id="display_age"></p>
+                </div>
+                <div class="age_p">
+                    <p id="display"></p>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
